@@ -10,7 +10,7 @@ function Details(props) {
     <div className="mt-3">
       <div className="mt-3 d-flex justify-content-between">
         <div>
-          <h1>{prop.recipe?.title}</h1>
+          <h1 className='fontGilory'>{prop.recipe?.title}</h1>
           <p>{prop.recipe?.description}</p>
           <div className='d-flex'>
             <Difficulty name={prop.recipe?.difficulty} />
@@ -22,7 +22,7 @@ function Details(props) {
             <div className="mx-2">{prop.recipe?.cuisine.title}</div>
           </div>
 
-          <h2 className='mt-4'>Ingredients</h2>
+          <h2 className='mt-4 fontGilory'>Ingredients</h2>
           <ul className='ps-3'>
             {
               prop.recipe?.ingredients.map((value) => {
@@ -30,7 +30,7 @@ function Details(props) {
               })
             }
           </ul>
-          <h2 className='mt-4'>Instruction</h2>
+          <h2 className='mt-4 fontGilory'>Instruction</h2>
           <ol className='ps-0'>
             {
               prop.recipe?.instructions.map((value, index) => {

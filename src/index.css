@@ -122,3 +122,15 @@ ol li {
   align-items: center;
   text-align: center;
 }
+.fontGilory{
+  font-family: "Gilory" !important;
+}
+
+
+
+@font-face {
+  font-family: "Gilory"; 
+  src: url("./fonts/Gilroy-Bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  } 

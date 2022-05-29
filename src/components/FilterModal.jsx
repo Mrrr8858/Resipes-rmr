@@ -100,7 +100,7 @@ export default function FilterModal() {
                 aria-describedby="modal-modal-description"
             >
                 <Box sx={style}>
-                    <p className='h3'>
+                    <p className='h3 fontGilory'>
                         Filter
                     </p>
                     <FormGroup >

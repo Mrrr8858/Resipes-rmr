@@ -30,7 +30,7 @@ class FoodCard extends React.Component {
                                 </div>
                             </div>
                             <CardContent>
-                                <Typography variant="h5">
+                                <Typography variant="h5" className='fontGilory'>
                                     {this.props.name}
                                 </Typography>
                                 <Typography variant="body2">

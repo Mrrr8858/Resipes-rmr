@@ -11,7 +11,7 @@ class Header extends React.Component {
                 <div className="header-outer d-flex justify-content-between">
                     <div className="header-inner">
                         <div className="header-text p-5 m-5">
-                            <h1>Air Recipes</h1>
+                            <h1 className='fontGilory'>Air Recipes</h1>
                             <p>Best Recipes for Best People {this.props.margin}</p>
                             <div className='d-flex'>
                                 <FormSearch />
